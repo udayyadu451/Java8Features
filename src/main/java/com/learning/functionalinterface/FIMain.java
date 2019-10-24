@@ -26,5 +26,7 @@ public class FIMain {
         };
 
         fid2.greet("uday");
+
+
     }
 }
