@@ -32,8 +32,6 @@
 *.tar*
 *.zip
 
-# Ignore user properties
-env.properties
 
 # Ignore output folders
 bin
@@ -44,25 +42,9 @@ node_modules
 out
 tmp
 webapps/*/src/test/js/vendor/
+target
 
-# FitNesse Project
-FITNESSE_PORT
-fitnesse/src/main/wiki/FitNesseRoot/ErrorLogs
-fitnesse/src/main/wiki/FitNesseRoot/RecentChanges
-fitnesse/src/main/wiki/FitNesseRoot/RecentChanges.wiki
-fitnesse/src/main/wiki/FitNesseRoot/files/testResults
-fitnesse/src/main/wiki/FitNesseRoot/files/testProgress
-fitnesse/src/main/wiki/FitNesseRoot/files/images
-fitnesse/src/main/wiki/FitNesseRoot/properties
-fitnesse/src/main/wiki/FitNesseRoot/updateDoNotCopyOverList
-fitnesse/src/main/wiki/FitNesseRoot/updateList
-fitnesse/src/fitnesserunner/java/com/aa/fitnesse/runners
 
 # Ignore Gradle files
 gradle-app.setting
 
-#Ignore binary folder
-fitnesse/src/main/resources/webdriver/binary
-
-webapps/package-lock.json
-webapps/sdfc-web/package-lock.json
